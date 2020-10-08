@@ -11,3 +11,7 @@ def get_bot_response(user_response):
     else:
         return "See you later!"
 
+print("Welcome to the Code Bot")
+print("Do you want to Code?")
+
+
