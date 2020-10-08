@@ -12,6 +12,14 @@ def get_bot_response(user_response):
         return "See you later!"
 
 print("Welcome to the Code Bot")
-print("Do you want to Code?")
+print("Please enter whether or not you want to code")
 
+while True:
+    user_reponse = input("Do you want to code today?: ")
+
+    if user_response == 'done':
+        break
+
+    bot_response = get_bot_response(user_response)
+    print(bot_response)
 
